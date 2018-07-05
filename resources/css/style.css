@@ -10,7 +10,7 @@ body{
 
 nav span {
   display: inline-block;
-  padding: 20px 10px;
+  padding: 0px 10px;
 }
 /*Header*/
 
@@ -37,6 +37,49 @@ header nav{
   align-items: center;
   flex-grow: 1;
   padding-left: 10px;
-  font-size: 50px;
-  font-family: cursive;
+}
+
+.logo img{
+  height: 50px;
+}
+
+/*Main Content*/
+
+.content{
+  display: flex;
+  align-items: center;
+  padding-top: 45px;
+  justify-content: center;
+
+}
+
+.section{
+  display: flex;
+  justify-content: center;
+
+}
+
+/*top section*/
+
+.top-brick{
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+
+
+}
+.topimagecontent {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  text-align: center;
+  background-color: black;
+  z-index: 1;
+
+}
+.section.mission {
+  display: flex;
+  background-color: white;
+  height: 100px;
 }
