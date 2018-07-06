@@ -17,8 +17,6 @@ nav span {
 header {
   display: flex;
   align-items: center;
-  position: fixed;
-  z-index: 1;
   width: 100%;
   height: 69px;
   border-bottom: 1px solid seashell;
@@ -30,7 +28,7 @@ header a{
 }
 
 header nav{
-  padding-right:
+  padding-right: 10px;
 }
 .logo {
   display: flex;
@@ -48,7 +46,6 @@ header nav{
 .content{
   display: flex;
   align-items: center;
-  padding-top: 45px;
   justify-content: center;
 
 }
